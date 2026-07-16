@@ -71,3 +71,11 @@ add a dummy page under "test" name which will be protected (do not make it publi
 ```bash
 npx skills add clerk/skills
 ```
+
+### prompt
+
+```bash
+go ahead and enable organizations in this clerk project. go ahead create a new page "choose-organization" which is going to render the ui for choosing an organization using the clerk components, use clerk organization skill for this task
+
+now go ahead and add organization switcher just beneath the user button in page.tsx
+```
