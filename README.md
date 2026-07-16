@@ -65,3 +65,9 @@ add a dummy page under "test" name which will be protected (do not make it publi
  go ahead and organize my sign-in and sign up routes to all be under a singular next.js route group meaning you will have to use parentheses in the folder name
   and call that route group auth
 ```
+
+### add clerk skills
+
+```bash
+npx skills add clerk/skills
+```
