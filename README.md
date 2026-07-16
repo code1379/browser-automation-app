@@ -45,5 +45,23 @@ i see the Toaster component wasn't added within the ThemeProvider - is that nece
 https://clerk.com/docs/nextjs/getting-started/quickstart
 
 ```bash
+clerk auth login
+clerk link
+clerk env pull
+clerk doctor
+```
+
+```bash
 add a dummy page under "test" name which will be protected (do not make it public in the proxy.ts) - to test if redirect works, do not run the server, i will be testing manually
+```
+
+## organization setup
+
+```bash
+ clear my layout.tsx file and make sure that there isn't any logic inside besides the clerk provider, meaning that i don't want any header components which use clerk's show componets or sign in and signup buttons, all of that will be triggered from other pages not the root layout
+
+ now go ahead and clean up my page.tsx The only thing I want rendered inside is the user button component from clerk
+
+ go ahead and organize my sign-in and sign up routes to all be under a singular next.js route group meaning you will have to use parentheses in the folder name
+  and call that route group auth
 ```
