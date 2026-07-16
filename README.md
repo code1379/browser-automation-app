@@ -37,4 +37,13 @@ setup components/ui/sonner.tsx in app/layout.tsx and alter the existing app/page
   on the button, we use toast API.
 
 i see the Toaster component wasn't added within the ThemeProvider - is that necessary, i can see that regardless of this, the theme theme switching still works on the toast component.it is because we are using css classname for theme change?
+
+```
+
+## add clerk
+
+https://clerk.com/docs/nextjs/getting-started/quickstart
+
+```bash
+add a dummy page under "test" name which will be protected (do not make it public in the proxy.ts) - to test if redirect works, do not run the server, i will be testing manually
 ```
