@@ -25,3 +25,16 @@ import { Button } from "@/components/ui/button";
 ```bash
 pnpm dlx shadcn@4.12.0 add --all
 ```
+
+## agent cnnversation
+
+```bash
+create a symbolic "CLAUDE.md" file that references @AGENTS.md
+```
+
+```bash
+setup components/ui/sonner.tsx in app/layout.tsx and alter the existing app/page.tsx so that when we click
+  on the button, we use toast API.
+
+i see the Toaster component wasn't added within the ThemeProvider - is that necessary, i can see that regardless of this, the theme theme switching still works on the toast component.it is because we are using css classname for theme change?
+```
